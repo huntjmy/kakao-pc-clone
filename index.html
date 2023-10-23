@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>Login KakaoTalk</title>
+    </head>
+    <body class="login-body">
+        <header class="login-header">
+            <div class="login-header__icon">
+                <i class="fa-solid fa-comment"></i>
+            </div>
+        </header>
+
+        <form action="friends.html" method="get" class="login-form">
+            <input name="username" type="text" placeholder="카카오계정 (이메일 또는 전화번호)" required />
+            <input name="password" type="password" placeholder="비밀번호" required />
+            <input type="submit" value="로그인" />
+            <div class="login-form__line">
+                <div id="line"></div>
+                <span>또는</span>
+                <div id="line"></div>
+            </div>
+            <button class="login-form__qr-btn">
+                <i class="fa-solid fa-qrcode"></i>
+                QR코드 로그인
+            </button>
+            <div class="login-form__auto-login">
+                <div class="round">
+                    <input type="checkbox" id="checkbox" />
+                    <label for="checkbox"></label>
+                </div>
+                <span>실행시 자동 로그인</span>
+                <i class="fa-solid fa-circle-info"></i>
+            </div>
+        </form>
+
+        <div class="login-link">
+            <a class="login-link__account" href="#">카카오계정 찾기</a>
+            <div class="divider"></div>
+            <a class="login-link__password" href="#">비밀번호 재설정</a>
+        </div>
+    </body>
+</html>
