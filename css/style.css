@@ -1,4 +1,25 @@
 @import 'reset.css';
 
+/* Components */
+@import 'components/nav-bar.css';
+@import 'components/screen-header.css';
+@import 'components/user-component.css';
+
 /* Screen */
 @import 'screens/login.css';
+@import 'screens/friends.css';
+
+body {
+    background-color: #262626;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    background-color: #323232;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #707070;
+    border-radius: 20px;
+}

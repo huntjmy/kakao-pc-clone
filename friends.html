@@ -1,11 +1,228 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>친구 - 카카오톡</title>
     </head>
     <body>
-        <h1>Test</h1>
+        <header class="screen-header">
+            <h1 class="screen-header__title">친구</h1>
+            <div class="screen-header__icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+                <span><i class="fa-solid fa-user-plus fa-lg"></i></span>
+            </div>
+        </header>
+
+        <main class="friends-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img
+                        src="https://mblogthumb-phinf.pstatic.net/MjAyMDAyMTBfODAg/MDAxNTgxMzA0MTE3ODMy.ACRLtB9v5NH-I2qjWrwiXLb7TeUiG442cJmcdzVum7cg.eTLpNg_n0rAS5sWOsofRrvBy0qZk_QcWSfUiIagTfd8g.JPEG.lattepain/1581304118739.jpg?type=w800"
+                        class="user-component__avatar user-component__avatar--lg"
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">정민영</h4>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>상태메세지</span>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </div>
+
+            <!-- Update User Component -->
+            <div class="friends-screen__title">
+                <div class="friends-screen__text">
+                    <span>업데이트한 프로필 2</span>
+                </div>
+                <div class="friends-screen__icon">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+            </div>
+
+            <div class="friends-screen__update-user">
+                <div class="friends-screen__update-profile">
+                    <img
+                        src="https://mblogthumb-phinf.pstatic.net/MjAyMDAyMTBfODAg/MDAxNTgxMzA0MTE3ODMy.ACRLtB9v5NH-I2qjWrwiXLb7TeUiG442cJmcdzVum7cg.eTLpNg_n0rAS5sWOsofRrvBy0qZk_QcWSfUiIagTfd8g.JPEG.lattepain/1581304118739.jpg?type=w800"
+                        class="friends-screen__update-image"
+                    />
+                    <span>정민영</span>
+                </div>
+                <div class="friends-screen__update-profile">
+                    <img
+                        src="https://img1.daumcdn.net/thumb/C500x500/?fname=http://t1.daumcdn.net/brunch/service/user/6qYm/image/eAFjiZeA-fGh8Y327AH7oTQIsxQ.png"
+                        class="friends-screen__update-image"
+                    />
+                    <span>홍길동</span>
+                </div>
+            </div>
+
+            <!-- Birthday User Component -->
+            <div class="friends-screen__title">
+                <div class="friends-screen__text">
+                    <span>생일인 친구</span>
+                </div>
+                <div class="friends-screen__icon">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+            </div>
+
+            <div class="friends-screen__user">
+                <div class="friends-screen__column">
+                    <img
+                        src="https://mblogthumb-phinf.pstatic.net/MjAyMDAyMTBfODAg/MDAxNTgxMzA0MTE3ODMy.ACRLtB9v5NH-I2qjWrwiXLb7TeUiG442cJmcdzVum7cg.eTLpNg_n0rAS5sWOsofRrvBy0qZk_QcWSfUiIagTfd8g.JPEG.lattepain/1581304118739.jpg?type=w800"
+                        class="friends-screen__image"
+                    />
+                    <div class="friends-screen__column--title">
+                        <h4>정민영</h4>
+                        <span>오늘 10월 24일</span>
+                    </div>
+                </div>
+                <div class="friends-screen__column--gift">
+                    <span>선물하기</span>
+                </div>
+            </div>
+
+            <div class="friends-screen__user">
+                <div class="friends-screen__column">
+                    <img
+                        src="https://img1.daumcdn.net/thumb/C500x500/?fname=http://t1.daumcdn.net/brunch/service/user/6qYm/image/eAFjiZeA-fGh8Y327AH7oTQIsxQ.png"
+                        class="friends-screen__image"
+                    />
+                    <div class="friends-screen__column--title">
+                        <h4>홍길동</h4>
+                        <span>어제 10월 23일</span>
+                    </div>
+                </div>
+                <div class="friends-screen__column--gift">
+                    <span>선물하기</span>
+                </div>
+            </div>
+
+            <div class="friends-screen__user">
+                <div class="friends-screen__column">
+                    <img src="https://i.pinimg.com/236x/c4/c9/12/c4c912c70c8e71700850ac51f57d66ec.jpg" class="friends-screen__image" />
+                    <div class="friends-screen__column--title">
+                        <h4>친구의 생일을 확인해보세요 !</h4>
+                        <!-- <span>오늘 10월 24일</span> -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Channel User Component -->
+            <div class="friends-screen__title">
+                <div class="friends-screen__text">
+                    <span>채널</span>
+                </div>
+                <div class="friends-screen__icon">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+            </div>
+
+            <div class="friends-screen__channel-user">
+                <div class="friends-screen__channel-profile">
+                    <img
+                        src="https://blog.kakaocdn.net/dn/SrDTV/btrb8U2oU6B/KmR3YeMZVn4WZFZMN6QhX1/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1%20%EC%B1%84%EB%84%90%20%EB%A1%9C%EA%B3%A0%20%EB%9D%BC%EC%9A%B4%EB%93%9C.png?attach=1&knm=img.png"
+                        class="friends-screen__image"
+                    />
+                    <div class="friends-screen__channel-title">
+                        <h4>채널</h4>
+                        <span>15</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Friends User Component -->
+            <div class="friends-screen__title">
+                <div class="friends-screen__text">
+                    <span>친구 3</span>
+                </div>
+                <div class="friends-screen__icon">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+            </div>
+
+            <div class="friends-screen__user">
+                <div class="friends-screen__column">
+                    <img
+                        src="https://mblogthumb-phinf.pstatic.net/MjAyMDAyMTBfODAg/MDAxNTgxMzA0MTE3ODMy.ACRLtB9v5NH-I2qjWrwiXLb7TeUiG442cJmcdzVum7cg.eTLpNg_n0rAS5sWOsofRrvBy0qZk_QcWSfUiIagTfd8g.JPEG.lattepain/1581304118739.jpg?type=w800"
+                        class="friends-screen__image"
+                    />
+                    <div class="friends-screen__column--title">
+                        <h4>정민영</h4>
+                        <!-- <span></span> -->
+                    </div>
+                </div>
+                <div class="friends-screen__column--music">
+                    <span>아이와 나의 바다 - 아이유</span>
+                </div>
+            </div>
+
+            <div class="friends-screen__user">
+                <div class="friends-screen__column">
+                    <img
+                        src="https://img1.daumcdn.net/thumb/C500x500/?fname=http://t1.daumcdn.net/brunch/service/user/6qYm/image/eAFjiZeA-fGh8Y327AH7oTQIsxQ.png"
+                        class="friends-screen__image"
+                    />
+                    <div class="friends-screen__column--title">
+                        <h4>홍길동</h4>
+                        <span>KakaoTalk PC Clone</span>
+                    </div>
+                </div>
+                <!-- <div class="friends-screen__column--music">
+                    <span></span>
+                </div> -->
+            </div>
+
+            <div class="friends-screen__user">
+                <div class="friends-screen__column">
+                    <img src="https://cdn.imweb.me/upload/S20221129c3c04fdc67a8b/73e390e23ea49.jpeg" class="friends-screen__image" />
+                    <div class="friends-screen__column--title">
+                        <h4>일론 머스크</h4>
+                        <!-- <span></span> -->
+                    </div>
+                </div>
+                <!-- <div class="friends-screen__column--music">
+                    <span></span>
+                </div> -->
+            </div>
+        </main>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list__btn">
+                    <a class="nav-list__link" href="friends.html">
+                        <i id="active" class="fa-solid fa-user fa-xl"></i>
+                    </a>
+                </li>
+                <li class="nav-list__btn">
+                    <a class="nav-list__link" href="chats.html">
+                        <i class="fa-solid fa-comment fa-xl"></i>
+                    </a>
+                </li>
+                <li class="nav-list__btn">
+                    <a class="nav-list__link" href="#">
+                        <i class="fa-solid fa-ellipsis fa-xl"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="nav-list">
+                <span class="nav-list__btn">
+                    <a class="nav-list__btn-lower" href="#">
+                        <i class="ri-notification-2-line"></i>
+                    </a>
+                </span>
+                <span class="nav-list__btn">
+                    <a class="nav-list__btn-lower" href="#">
+                        <i class="ri-settings-5-line"></i>
+                    </a>
+                </span>
+            </div>
+        </nav>
     </body>
 </html>

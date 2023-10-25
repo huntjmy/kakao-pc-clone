@@ -1,0 +1,24 @@
+.screen-header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: #262626;
+    z-index: 99;
+    overflow: hidden;
+}
+
+.screen-header h1 {
+    margin-left: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.screen-header__icons span {
+    margin-right: 25px;
+    color: #7a7a7a;
+}

@@ -1,0 +1,130 @@
+.friends-screen {
+    position: absolute;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.friends-screen__title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 25px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.friends-screen__update-user {
+    display: flex;
+    margin-right: 25px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.friends-screen__update-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.friends-screen__update-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.friends-screen__update-profile span {
+    color: #fff;
+    font-size: 13px;
+}
+
+.friends-screen__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.friends-screen__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.friends-screen__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.friends-screen__column--title h4 {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.friends-screen__column--title span {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.friends-screen__column--gift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 25px;
+    margin-right: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.friends-screen__channel-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 100px;
+}
+
+.friends-screen__channel-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.friends-screen__channel-title {
+    display: flex;
+    align-items: center;
+}
+
+.friends-screen__channel-title h4 {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.friends-screen__channel-title span {
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.friends-screen__column--music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 18px;
+    margin-right: 25px;
+    border: 1px solid #18a538;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 10px;
+}
