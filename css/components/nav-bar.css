@@ -14,8 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    margin-bottom: 450px;
+    /* margin-bottom: 450px; */
 }
 
 .nav-list span {
@@ -24,14 +23,24 @@
     align-items: center;
     border-radius: 50%;
     color: #949494;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
     width: 35px;
     height: 35px;
+    bottom: 0;
+    position: absolute;
 }
 
 .nav-list span:hover {
     background-color: #4a4a4a;
+}
+
+.nav-list span:first-child {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.nav-list span:last-child {
+    margin-bottom: 40px;
 }
 
 .nav-list__link i {
