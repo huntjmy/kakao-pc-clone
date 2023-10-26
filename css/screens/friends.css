@@ -76,16 +76,12 @@
 }
 
 .friends-screen__column--gift {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 25px;
+    padding: 5px 8px;
     margin-right: 25px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     color: #fff;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .friends-screen__channel-profile {
@@ -118,14 +114,10 @@
 }
 
 .friends-screen__column--music {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    height: 18px;
+    padding: 5px 8px;
     margin-right: 25px;
     border: 1px solid #18a538;
     border-radius: 20px;
     color: #fff;
-    font-size: 10px;
+    font-size: 11px;
 }
