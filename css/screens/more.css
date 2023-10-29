@@ -1,0 +1,115 @@
+.more-screen {
+    position: absolute;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.more-screen__mine {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+
+.mine-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: #fff;
+    padding: 25px 20px;
+}
+
+.mine-column:first-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.mine-column:last-child {
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 15px 20px;
+}
+
+.mine-column__title h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.mine-column__title span {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.mine-column__icon {
+    font-size: 30px;
+    color: #3961e1;
+}
+
+.mine-column__title--my {
+    font-size: 14px;
+}
+
+.mine-column__icon--my {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.more-screen__icons {
+    margin-left: 100px;
+    margin-top: 60px;
+    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.more-screen__icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.more-screen__icon i {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.more-screen__icon span {
+    margin-top: 25px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.more-screen__info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.info__column {
+    display: flex;
+    align-items: center;
+}
+
+.info__column:first-child {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.info__column:first-child span {
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.info__column:last-child {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+}
